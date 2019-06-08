@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 ublic class ClienteSocket {
     public static void main(String[] args) throws IOException {
         try{
-        final Socket cliente = new Socket("localhost", 9999);
+        final Socket cliente = new Socket("Luciano-2016", 9999);
         
         //Lendo mensagens do servidor:
         new Thread(){
